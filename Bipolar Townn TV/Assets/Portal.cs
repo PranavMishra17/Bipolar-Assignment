@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Portal : MonoBehaviour
 {
+    public string switchTo;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +22,8 @@ public class Portal : MonoBehaviour
     {
         if ((other.gameObject.tag == "Player"))
         {
-            SceneManager.LoadScene("Town 2");
+            SceneManager.LoadScene(switchTo);
+
         }
     }
 }

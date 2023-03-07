@@ -1,0 +1,577 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1678179294168136, "dur": 1360271, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678179294168334, "dur": 8384, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678179294176719, "dur": 31802, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678179294208523, "dur": 430596, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678179294639123, "dur": 875156, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678179295514281, "dur": 14125, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678179295528959, "dur": 15, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1678179294511788, "dur": 104572, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678179294512554, "dur": 30510, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678179294604662, "dur": 3441, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678179294608105, "dur": 8250, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678179294608650, "dur": 7293, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678179294619985, "dur": 983, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678179294619368, "dur": 1615, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678179295529139, "dur": 216, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1678179294668175, "dur":869, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179294669048, "dur":34, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1678179294669089, "dur":7, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1678179294669096, "dur":436, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1678179294669546, "dur":876, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179294670422, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490047, "dur":182, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490229, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490255, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490255, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490261, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490264, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490278, "dur":40, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490318, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490323, "dur":146, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490469, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490477, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490479, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490482, "dur":94, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490576, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490590, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490590, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490593, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490594, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490597, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490598, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490602, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490603, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490606, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490607, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490627, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490627, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490631, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490632, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490634, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490635, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490639, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490640, "dur":29, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490669, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490680, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295490694, "dur":1584, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1678179294671038, "dur":4, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678179294671042, "dur":2644, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678179294673687, "dur":14665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1678179294688358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678179294688387, "dur":4399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1678179294692814, "dur":21194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678179294714016, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678179294714368, "dur":2860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678179294717266, "dur":71968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678179294789238, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678179294789250, "dur":2322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678179294791604, "dur":24940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678179294816549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678179294816559, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678179294817939, "dur":19049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678179294836992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678179294837002, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678179294837769, "dur":20891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678179294858665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678179294858674, "dur":10976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678179294869712, "dur":65548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678179294935266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678179294935277, "dur":8701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678179294944007, "dur":41687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678179294985706, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678179294985728, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678179294987040, "dur":35765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678179295022817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678179295022847, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678179295024829, "dur":269368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678179295294204, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678179295294219, "dur":6187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678179295300437, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678179295300473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678179295300480, "dur":4845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678179295305384, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1678179295305535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678179295305546, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1678179295307432, "dur":182577, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678179294670355, "dur":73, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678179294670428, "dur":3232, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678179294673666, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1678179294673672, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678179294675094, "dur":337, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1678179294675435, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1678179294675471, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678179294675608, "dur":3884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1678179294679494, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1678179294679577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678179294679617, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1678179294680845, "dur":42867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV.exe" }}
+,{ "pid":12345, "tid":2, "ts":1678179294723717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678179294723727, "dur":3939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV.exe" }}
+,{ "pid":12345, "tid":2, "ts":1678179294727700, "dur":94513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678179294822217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678179294822224, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678179294823853, "dur":22500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678179294846357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678179294846364, "dur":1879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678179294848275, "dur":25786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678179294874065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678179294874073, "dur":2116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678179294876212, "dur":43510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678179294919742, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678179294919792, "dur":1830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678179294921652, "dur":169979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678179295091635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678179295091644, "dur":22162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678179295113830, "dur":166524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678179295280362, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678179295280378, "dur":3651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678179295284070, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1678179295284204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678179295284217, "dur":3058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1678179295287308, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1678179295287341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678179295287348, "dur":25898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1678179295313302, "dur":176734, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678179294671738, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678179294671738, "dur":1925, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678179294673669, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1678179294673834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678179294676455, "dur":3514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1678179294679998, "dur":4229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678179294684247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678179294684398, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678179294685435, "dur":26462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678179294711902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678179294713785, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678179294715558, "dur":25227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678179294740789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678179294740849, "dur":3297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678179294744175, "dur":50758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678179294794938, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678179294794951, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678179294795706, "dur":25062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678179294820774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678179294820786, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678179294822223, "dur":29055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678179294851283, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678179294851294, "dur":10041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678179294861383, "dur":77652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678179294939040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678179294939050, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678179294939994, "dur":304210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678179295244209, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678179295244220, "dur":3069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678179295247314, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1678179295247342, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678179295247348, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1678179295248122, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1678179295248160, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678179295248167, "dur":46239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1678179295294462, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1678179295294524, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678179295294532, "dur":4300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1678179295298869, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1678179295299063, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678179295299222, "dur":16461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1678179295315715, "dur":174293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678179294670975, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678179294670975, "dur":2777, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678179294673754, "dur":15098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1678179294688858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678179294688882, "dur":4455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1678179294693362, "dur":24459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678179294717827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678179294717839, "dur":5285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678179294723158, "dur":20893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678179294744055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678179294744087, "dur":2201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678179294746314, "dur":119358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678179294865676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678179294865684, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678179294866574, "dur":24223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678179294890802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678179294890811, "dur":2264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678179294893236, "dur":169152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678179295062400, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678179295062413, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678179295063480, "dur":47397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678179295110881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678179295110890, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678179295112517, "dur":197409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678179295309934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678179295309945, "dur":2982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678179295312967, "dur":177037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678179294670686, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678179294670686, "dur":3053, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678179294673740, "dur":15305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1678179294689051, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678179294689077, "dur":3982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1678179294693085, "dur":34807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678179294727897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678179294727910, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678179294729727, "dur":28546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678179294758278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678179294758287, "dur":3231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678179294761667, "dur":57894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678179294819574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678179294819599, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678179294821480, "dur":24859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678179294846344, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678179294846355, "dur":15664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678179294862057, "dur":32987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678179294895048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678179294895058, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678179294897549, "dur":51759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678179294949326, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678179294949360, "dur":1083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678179294950482, "dur":67276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678179295017765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678179295017780, "dur":3675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678179295021489, "dur":84308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678179295105805, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678179295105821, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678179295107580, "dur":259327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678179295366910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678179295366916, "dur":4668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678179295371607, "dur":118438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678179294671619, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678179294671620, "dur":2126, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678179294673747, "dur":15371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1678179294689124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678179294689159, "dur":4666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1678179294693882, "dur":126584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678179294820472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678179294820484, "dur":4258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678179294824777, "dur":130846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678179294955629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678179294955641, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678179294956889, "dur":30183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678179294987100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678179294990810, "dur":3543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678179294994389, "dur":83788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678179295078198, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678179295078237, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678179295079768, "dur":256348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678179295336122, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678179295336137, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678179295338992, "dur":151090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678179294670524, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678179294670524, "dur":3220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678179294673745, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1678179294674123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678179294685834, "dur":1580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1678179294687447, "dur":41171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678179294728623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678179294728633, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678179294730023, "dur":43797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678179294773826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678179294773835, "dur":4007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678179294777870, "dur":37256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678179294815130, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678179294815141, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678179294816455, "dur":56855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678179294873314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678179294873322, "dur":2706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678179294876056, "dur":64731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678179294940790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678179294940799, "dur":3428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678179294944257, "dur":90994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678179295035257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678179295035269, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678179295036725, "dur":141221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678179295177952, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678179295177964, "dur":2278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678179295180277, "dur":152493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678179295332776, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678179295332786, "dur":2994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678179295335829, "dur":154259, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678179294671123, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678179294671123, "dur":2538, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678179294673666, "dur":37260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1678179294710933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678179294712901, "dur":2041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1678179294714979, "dur":17271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678179294732257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678179294732267, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678179294733944, "dur":209125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678179294943074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678179294943085, "dur":1847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678179294944998, "dur":46196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678179294991198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678179294991208, "dur":5525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678179294996789, "dur":46014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678179295042811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678179295042822, "dur":2756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678179295045608, "dur":61535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678179295107146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678179295107154, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678179295108267, "dur":56502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678179295164775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678179295164786, "dur":2627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678179295167527, "dur":264703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678179295432238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678179295432246, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678179295433241, "dur":56789, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678179294671365, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678179294671366, "dur":2311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678179294673678, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1678179294674038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678179294685786, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1678179294687251, "dur":25515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678179294712771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678179294713824, "dur":2386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678179294716248, "dur":34367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678179294750620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678179294750630, "dur":3745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678179294754401, "dur":60346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678179294814752, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678179294814764, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678179294816141, "dur":42850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678179294858994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678179294859001, "dur":6221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678179294865247, "dur":227156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678179295092422, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678179295092460, "dur":19739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678179295112343, "dur":195787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678179295308135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678179295308174, "dur":5879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678179295314082, "dur":175924, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678179294670770, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678179294670771, "dur":2895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678179294673666, "dur":14395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1678179294688064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678179294688077, "dur":2264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1678179294690365, "dur":41391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678179294731760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678179294731768, "dur":1590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678179294733410, "dur":188769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678179294922183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678179294922192, "dur":4948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678179294927191, "dur":91494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678179295018699, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678179295018730, "dur":2768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678179295021537, "dur":132226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678179295153766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678179295153775, "dur":12198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678179295166008, "dur":320976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678179295486988, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678179295486997, "dur":2944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678179295489967, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1678179295489969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678179294671217, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678179294671218, "dur":2453, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678179294673672, "dur":13710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1678179294687386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678179294687469, "dur":2644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1678179294690154, "dur":41365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179294731525, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678179294731540, "dur":2543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179294734108, "dur":24171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179294758283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678179294758291, "dur":2877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179294761308, "dur":24108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179294785420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678179294785428, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179294787711, "dur":24472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179294812189, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678179294812202, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179294813213, "dur":19494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179294832723, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678179294832754, "dur":1756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179294834539, "dur":24847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179294859390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678179294859398, "dur":5000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179294864485, "dur":39274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179294903763, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678179294903781, "dur":2582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179294906396, "dur":83690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179294990093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678179294990107, "dur":4262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179294994401, "dur":48307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179295042716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678179295042727, "dur":2316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179295045207, "dur":107030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179295152244, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678179295152255, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179295153398, "dur":62295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179295215700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678179295215711, "dur":10841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678179295226599, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":11, "ts":1678179295226728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678179295227397, "dur":1873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":11, "ts":1678179295229294, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1678179295229323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678179295229365, "dur":2425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1678179295232219, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":11, "ts":1678179295232383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678179295232412, "dur":133256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":11, "ts":1678179295365690, "dur":124349, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678179294671328, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678179294671328, "dur":2346, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678179294673676, "dur":999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1678179294674678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678179294676138, "dur":3826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1678179294679996, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1678179294680088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678179294680095, "dur":2892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1678179294683091, "dur":76619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678179294759728, "dur":282, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678179294761181, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678179294762273, "dur":53141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678179294815418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678179294815865, "dur":3446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678179294819340, "dur":57723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678179294877067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678179294877076, "dur":2265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678179294879380, "dur":22632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678179294902031, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678179294902067, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678179294904322, "dur":42894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678179294947220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678179294947229, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678179294948372, "dur":42341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678179294990718, "dur":266, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678179294991538, "dur":5490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678179294997082, "dur":30376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678179295027464, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678179295027477, "dur":3353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678179295030906, "dur":256008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678179295286918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678179295286951, "dur":9154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678179295296283, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1678179295296466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678179295296500, "dur":3457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1678179295300172, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1678179295300376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678179295300383, "dur":6867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1678179295307287, "dur":182723, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678179294671712, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678179294671712, "dur":2038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678179294673752, "dur":3133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1678179294676889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678179294677131, "dur":3234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1678179294680403, "dur":318116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678179294998523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678179294998532, "dur":47575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678179295046133, "dur":192146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678179295238286, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678179295238300, "dur":6724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678179295245057, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1678179295245151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678179295245158, "dur":17186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1678179295262404, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":13, "ts":1678179295262446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678179295262457, "dur":21686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":13, "ts":1678179295284185, "dur":11082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1678179295295271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678179295295279, "dur":3034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1678179295298356, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/level1" }}
+,{ "pid":12345, "tid":13, "ts":1678179295298391, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678179295298401, "dur":3416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/level1" }}
+,{ "pid":12345, "tid":13, "ts":1678179295301870, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1678179295301913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678179295301924, "dur":3663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1678179295305622, "dur":184420, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678179294671359, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678179294671359, "dur":2383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678179294673744, "dur":999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1678179294674747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678179294676106, "dur":4350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1678179294680488, "dur":29760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1678179294710252, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678179294710262, "dur":4304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1678179294714605, "dur":25445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678179294740055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678179294740147, "dur":3936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678179294744116, "dur":45998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678179294790120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678179294790134, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678179294792521, "dur":55569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678179294848094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678179294848101, "dur":2750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678179294850893, "dur":22265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678179294873186, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678179294873198, "dur":2785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678179294876022, "dur":32302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678179294908339, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678179294908373, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678179294909998, "dur":180192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678179295090196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678179295090207, "dur":15344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678179295105607, "dur":280872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678179295386483, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678179295386491, "dur":1966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678179295388475, "dur":101608, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678179294671482, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678179294671482, "dur":2253, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678179294673737, "dur":942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1678179294674682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678179294676081, "dur":4096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1678179294680217, "dur":103569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678179294783795, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678179294783956, "dur":7435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678179294791429, "dur":26980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678179294818415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678179294818426, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678179294820180, "dur":38409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678179294858595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678179294858610, "dur":5631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678179294864318, "dur":57200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678179294921522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678179294921574, "dur":2476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678179294924385, "dur":90596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678179295014991, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678179295015041, "dur":4576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678179295019709, "dur":346720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678179295366432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678179295366440, "dur":5272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678179295371731, "dur":118355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678179294671507, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678179294671507, "dur":2161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678179294673670, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1678179294673833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678179294676101, "dur":3763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1678179294679894, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":16, "ts":1678179294679976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678179294679982, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":16, "ts":1678179294681699, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":16, "ts":1678179294682055, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678179294682676, "dur":25898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":16, "ts":1678179294708694, "dur":22097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678179294730796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678179294730807, "dur":2268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678179294733131, "dur":56311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678179294789446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678179294789457, "dur":3378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678179294792920, "dur":29403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678179294822327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678179294822334, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678179294824008, "dur":37902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678179294862148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678179294862156, "dur":3032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678179294865214, "dur":21538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678179294886774, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678179294886815, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678179294888227, "dur":57081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678179294945317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678179294945335, "dur":1704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678179294947067, "dur":50062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678179294997135, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678179294997152, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678179294998428, "dur":137582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678179295136016, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678179295136027, "dur":6794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678179295142872, "dur":177904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678179295320782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678179295320795, "dur":3073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/prana/Desktop/Unity projects/Builds/BipolarAssignment/Bipolar Townn TV_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678179295323903, "dur":166110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678179295493661, "dur":1442, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1678179295529415, "dur": 858, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678179295528945, "dur": 1353, "ph": "X", "name": "Write chrome-trace events", "args": {} },

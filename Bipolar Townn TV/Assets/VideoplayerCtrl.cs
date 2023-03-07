@@ -40,6 +40,11 @@ public class VideoplayerCtrl : MonoBehaviour
                 txt.text = "Pause";
             }
         }
+
+        if (videoPlayer.isPlaying)
+        {
+            txt.text = "Pause";
+        } else txt.text = "Play";
     }
 
 
